@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [testNGLearning]">
+  <test name="simpleTest(failed)">
+    <parameter name="password" value="testpassword"/>
+    <parameter name="appURL" value="https://dev2-cctv.ajilonservices.com.au"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.testpages.manageuserstest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="downloadT2uploadTemplate"/>
+          <include name="uploadT2users"/>
+        </methods>
+      </class> <!-- com.testpages.manageuserstest -->
+    </classes>
+  </test> <!-- simpleTest(failed) -->
+</suite> <!-- Failed suite [testNGLearning] -->
