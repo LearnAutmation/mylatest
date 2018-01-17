@@ -47,3 +47,208 @@ The account number and temporary password has been sent to friend9831@gmail.com
 2018-01-17 12:15:07,894 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (6a7a244b9ca8f1e3eb5ce148dcb25207)] -> xpath: .//*[@id='userT1Msg']/div/div/div[2]/button]
 2018-01-17 12:15:07,894 [main] INFO com.utils.TestBase - ************New T1 user crrated**********
 2018-01-17 12:15:07,898 [main] INFO com.utils.TestBase - ******* T2 template download started********
+2018-01-17 13:38:14,713 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 13:38:14,716 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 13:38:15,842 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: html/body/section/section/div/div/article/div/div[2]/a]
+2018-01-17 13:38:19,633 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 13:38:24,117 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 13:38:24,118 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 13:38:28,139 [main] INFO com.utils.TestBase - ****************Started editing t0****************
+2018-01-17 13:38:29,635 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='searchPanel']/div/h4/a]
+2018-01-17 13:38:29,800 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@value="Edit Profile"]]
+2018-01-17 13:38:30,410 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='dvupdateT0user']/div/div/div[2]/input[3]]
+2018-01-17 13:38:30,411 [main] INFO com.utils.TestBase - ****************editing t0 done****************
+2018-01-17 13:38:32,415 [main] INFO com.utils.TestBase - ****************Search T0 started ****************
+2018-01-17 13:38:35,544 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:38:36,560 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='dvsearchT0user']/div[1]/fieldset/div[3]/button]
+2018-01-17 13:38:37,157 [main] INFO com.utils.TestBase - Element text is--1 - 6 of 6 items
+2018-01-17 13:38:37,169 [main] INFO com.utils.TestBase - ****************Search T0 finished ****************
+2018-01-17 13:38:44,177 [main] INFO com.utils.TestBase - ****************Create T0 started****************
+2018-01-17 13:38:47,121 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:38:50,237 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: //button[text()='Create New T0 Account']]
+2018-01-17 13:38:51,115 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='btnsubmitT0']]
+2018-01-17 13:38:54,203 [main] INFO com.utils.TestBase - Element text is--T0 account T000005993 has been created.
+The account number and temporary password has been sent to alok.rai@itcinfotech.com
+2018-01-17 13:38:54,288 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='userT0Msg']/div/div/div[2]/button]
+2018-01-17 13:38:54,288 [main] INFO com.utils.TestBase - ****************Create T0 finished****************
+2018-01-17 13:38:54,294 [main] INFO com.utils.TestBase - ******** T2 upload started *********
+2018-01-17 13:39:00,560 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:39:01,053 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='page-content-wrapper']/div/ul/li[2]/a]
+2018-01-17 13:39:01,683 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='btnsearchT']]
+2018-01-17 13:39:04,829 [main] INFO com.utils.TestBase - Selecting upload file
+2018-01-17 13:39:17,153 [main] INFO com.utils.TestBase - [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='uploadexcel']]not foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='uploadexcel']] (tried for 9 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BLRRIDGWD22231', ip: '192.168.1.27', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\22231\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 856115c961c445345ba4715b2ebad472
+2018-01-17 13:39:17,202 [main] INFO com.utils.TestBase - ************Creating new T1 user**********
+2018-01-17 13:39:23,477 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:39:23,906 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='page-content-wrapper']/div/ul/li[2]/a]
+2018-01-17 13:39:24,537 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//button[@id='btnCrateT1']]
+2018-01-17 13:39:28,664 [main] INFO com.utils.TestBase - Selected element --Federal Government
+2018-01-17 13:39:28,958 [main] INFO com.utils.TestBase - Selected element --Dell
+2018-01-17 13:39:30,396 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='cameraPermission1T1']]
+2018-01-17 13:39:30,489 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@name="viewConnectedCamerasT1"]]
+2018-01-17 13:39:30,593 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='btnsubmitT1']]
+2018-01-17 13:39:34,654 [main] INFO com.utils.TestBase - Element text is--T1 Account T100005994 has been created.
+The account number and temporary password has been sent to friend9831@gmail.com
+2018-01-17 13:39:37,760 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (856115c961c445345ba4715b2ebad472)] -> xpath: .//*[@id='userT1Msg']/div/div/div[2]/button]
+2018-01-17 13:39:37,760 [main] INFO com.utils.TestBase - ************New T1 user crrated**********
+2018-01-17 13:39:37,764 [main] INFO com.utils.TestBase - ******* T2 template download started********
+2018-01-17 13:41:06,365 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 13:41:06,368 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 13:41:07,524 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: html/body/section/section/div/div/article/div/div[2]/a]
+2018-01-17 13:41:10,528 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 13:41:14,972 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 13:41:14,972 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 13:41:18,997 [main] INFO com.utils.TestBase - ****************Started editing t0****************
+2018-01-17 13:41:20,601 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='searchPanel']/div/h4/a]
+2018-01-17 13:41:20,763 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@value="Edit Profile"]]
+2018-01-17 13:41:21,380 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='dvupdateT0user']/div/div/div[2]/input[3]]
+2018-01-17 13:41:21,381 [main] INFO com.utils.TestBase - ****************editing t0 done****************
+2018-01-17 13:41:23,386 [main] INFO com.utils.TestBase - ****************Search T0 started ****************
+2018-01-17 13:41:26,787 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:41:27,762 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='dvsearchT0user']/div[1]/fieldset/div[3]/button]
+2018-01-17 13:41:28,353 [main] INFO com.utils.TestBase - Element text is--1 - 6 of 6 items
+2018-01-17 13:41:28,363 [main] INFO com.utils.TestBase - ****************Search T0 finished ****************
+2018-01-17 13:41:35,369 [main] INFO com.utils.TestBase - ****************Create T0 started****************
+2018-01-17 13:41:38,639 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:41:41,764 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: //button[text()='Create New T0 Account']]
+2018-01-17 13:41:42,600 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='btnsubmitT0']]
+2018-01-17 13:41:45,677 [main] INFO com.utils.TestBase - Element text is--T0 account T000005995 has been created.
+The account number and temporary password has been sent to alok.rai@itcinfotech.com
+2018-01-17 13:41:45,759 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='userT0Msg']/div/div/div[2]/button]
+2018-01-17 13:41:45,760 [main] INFO com.utils.TestBase - ****************Create T0 finished****************
+2018-01-17 13:41:45,765 [main] INFO com.utils.TestBase - ******** T2 upload started *********
+2018-01-17 13:41:51,814 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:41:52,263 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='page-content-wrapper']/div/ul/li[2]/a]
+2018-01-17 13:41:52,885 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='btnsearchT']]
+2018-01-17 13:41:56,036 [main] INFO com.utils.TestBase - Selecting upload file
+2018-01-17 13:42:08,341 [main] INFO com.utils.TestBase - [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='uploadexcel']]not foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='uploadexcel']] (tried for 9 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BLRRIDGWD22231', ip: '192.168.1.27', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\22231\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: edd3cd94552623d28ab13d728615434f
+2018-01-17 13:42:08,395 [main] INFO com.utils.TestBase - ************Creating new T1 user**********
+2018-01-17 13:42:14,515 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='RegistrationPanel']/div/h4/a]
+2018-01-17 13:42:14,952 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='page-content-wrapper']/div/ul/li[2]/a]
+2018-01-17 13:42:15,606 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//button[@id='btnCrateT1']]
+2018-01-17 13:42:19,710 [main] INFO com.utils.TestBase - Selected element --Federal Government
+2018-01-17 13:42:20,000 [main] INFO com.utils.TestBase - Selected element --Dell
+2018-01-17 13:42:21,448 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='cameraPermission1T1']]
+2018-01-17 13:42:21,543 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@name="viewConnectedCamerasT1"]]
+2018-01-17 13:42:21,647 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='btnsubmitT1']]
+2018-01-17 13:42:25,724 [main] INFO com.utils.TestBase - Element text is--T1 Account T100005996 has been created.
+The account number and temporary password has been sent to friend9831@gmail.com
+2018-01-17 13:42:28,814 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (edd3cd94552623d28ab13d728615434f)] -> xpath: .//*[@id='userT1Msg']/div/div/div[2]/button]
+2018-01-17 13:42:28,814 [main] INFO com.utils.TestBase - ************New T1 user crrated**********
+2018-01-17 13:42:28,824 [main] INFO com.utils.TestBase - ******* T2 template download started********
+2018-01-17 16:20:25,443 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:20:25,446 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:20:26,945 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (e991451559ba0ae8c6369ddfa4c4b04a)] -> xpath: html/body/section/section/div/div/article/div/div[2]/a]
+2018-01-17 16:20:30,232 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (e991451559ba0ae8c6369ddfa4c4b04a)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:20:35,396 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (e991451559ba0ae8c6369ddfa4c4b04a)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:20:35,398 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:22:12,845 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:22:12,847 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:22:14,365 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (feacff81471fac9c657aa68862752dec)] -> xpath: html/body/section/section/div/div/article/div/div[2]/a]
+2018-01-17 16:22:17,712 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (feacff81471fac9c657aa68862752dec)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:22:23,148 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (feacff81471fac9c657aa68862752dec)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:22:23,149 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:23:30,571 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:23:30,574 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:23:31,707 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (7df003b226f4537ec5872e1be28c0751)] -> xpath: html/body/section/section/div/div/article/div/div[2]/a]
+2018-01-17 16:23:35,187 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (7df003b226f4537ec5872e1be28c0751)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:23:39,674 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (7df003b226f4537ec5872e1be28c0751)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:23:39,675 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:25:41,662 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:25:41,665 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:26:42,527 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:26:42,530 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:26:42,653 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (fe064d213f953175dfd194f687e6d47b)] -> xpath: html/body/section/section/div/div/article/div/div[2]/a]
+2018-01-17 16:27:12,297 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (fe064d213f953175dfd194f687e6d47b)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:27:18,304 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (fe064d213f953175dfd194f687e6d47b)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:27:18,305 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:29:32,015 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:29:32,018 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:30:38,017 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:30:38,021 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:30:38,149 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (4871ad60e1d9969d69c774c169e3e73c)] -> xpath: html/body/section/section/div/div/article/div/div[2]/a]
+2018-01-17 16:33:01,164 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:33:01,166 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:33:02,689 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (c82e5aa479d15d2edd3e53cdc2549a9c)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:33:06,114 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (c82e5aa479d15d2edd3e53cdc2549a9c)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:33:10,804 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (c82e5aa479d15d2edd3e53cdc2549a9c)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:33:10,805 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:34:40,118 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:34:40,121 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:34:41,259 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (080f7578df17d89dade612e256ed29fb)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:34:44,542 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (080f7578df17d89dade612e256ed29fb)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:34:49,841 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (080f7578df17d89dade612e256ed29fb)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:34:49,841 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:38:23,122 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:38:23,125 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:38:24,774 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (f3d65de18b4bd56b79c5e79477fa04f0)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:38:27,884 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (f3d65de18b4bd56b79c5e79477fa04f0)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:38:32,298 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (f3d65de18b4bd56b79c5e79477fa04f0)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:38:32,299 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:41:39,341 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:41:39,344 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:41:40,901 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (03419d868b2096b62a3312ff69ec9e78)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:41:45,226 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (03419d868b2096b62a3312ff69ec9e78)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:41:50,059 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (03419d868b2096b62a3312ff69ec9e78)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:41:50,060 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:43:15,007 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:43:15,009 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:43:15,131 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (826ee45287ff5362e4cc93f861c906f4)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:44:45,232 [main] INFO com.utils.TestBase - Proxy element for: DefaultElementLocator 'By.xpath: html/body/section/div/section/div/form/div[2]/button[1]'not foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: html/body/section/div/section/div/form/div[2]/button[1]' (tried for 9 second(s) with 500 MILLISECONDS interval)
+2018-01-17 16:46:44,716 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:46:44,718 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:46:45,836 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b4d6e2a3f96904b12d820f705ef8566c)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:46:48,776 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b4d6e2a3f96904b12d820f705ef8566c)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:46:54,714 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b4d6e2a3f96904b12d820f705ef8566c)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:46:54,714 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:49:49,559 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:49:49,561 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:49:50,670 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (ead969f9b00b296c9efdb2f852fa9bb4)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:49:54,920 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (ead969f9b00b296c9efdb2f852fa9bb4)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:49:59,241 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (ead969f9b00b296c9efdb2f852fa9bb4)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:49:59,242 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:50:03,262 [main] INFO com.utils.TestBase - ****************Started editing t0****************
+2018-01-17 16:50:04,686 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (ead969f9b00b296c9efdb2f852fa9bb4)] -> xpath: .//*[@id='searchPanel']/div/h4/a]
+2018-01-17 16:50:04,847 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (ead969f9b00b296c9efdb2f852fa9bb4)] -> xpath: .//*[@value="Edit Profile"]]
+2018-01-17 16:50:05,447 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (ead969f9b00b296c9efdb2f852fa9bb4)] -> xpath: .//*[@id='dvupdateT0user']/div/div/div[2]/input[3]]
+2018-01-17 16:50:05,447 [main] INFO com.utils.TestBase - ****************editing t0 done****************
+2018-01-17 16:57:14,386 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:57:14,389 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:57:15,504 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (4478e461274d81fdccf170c1a3f15fcb)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:57:19,298 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (4478e461274d81fdccf170c1a3f15fcb)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:57:24,404 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (4478e461274d81fdccf170c1a3f15fcb)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:57:24,404 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:58:35,624 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 16:58:35,627 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 16:58:37,224 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (d21b0b2795514211d73926daf0c02b8b)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 16:58:40,292 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (d21b0b2795514211d73926daf0c02b8b)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 16:58:45,603 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (d21b0b2795514211d73926daf0c02b8b)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 16:58:45,603 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 16:58:49,624 [main] INFO com.utils.TestBase - ****************Started editing t0****************
+2018-01-17 16:58:50,964 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (d21b0b2795514211d73926daf0c02b8b)] -> xpath: .//*[@id='searchPanel']/div/h4/a]
+2018-01-17 16:58:51,138 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (d21b0b2795514211d73926daf0c02b8b)] -> xpath: .//*[@value="Edit Profile"]]
+2018-01-17 16:58:51,755 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (d21b0b2795514211d73926daf0c02b8b)] -> xpath: .//*[@id='dvupdateT0user']/div/div/div[2]/input[3]]
+2018-01-17 16:58:51,755 [main] INFO com.utils.TestBase - ****************editing t0 done****************
+2018-01-17 17:02:30,974 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 17:02:30,976 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 17:02:31,105 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (3c6a4ebec2d7d8ad32cef7624af21b58)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 17:03:12,311 [main] INFO com.utils.TestBase - log4j setting done
+2018-01-17 17:03:12,314 [main] INFO com.utils.TestBase - ***********Started logging in **********
+2018-01-17 17:03:13,708 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b6fc176e3756f82966cf4b55d5df58cd)] -> xpath: //a[@ng-click='AcceptAndContinue()']]
+2018-01-17 17:03:18,213 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b6fc176e3756f82966cf4b55d5df58cd)] -> xpath: html/body/section/div/section/div/form/div[2]/button[1]]
+2018-01-17 17:03:23,364 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b6fc176e3756f82966cf4b55d5df58cd)] -> xpath: .//*[@id='cred_sign_in_button']]
+2018-01-17 17:03:23,364 [main] INFO com.utils.TestBase - ***********Logging in done *************
+2018-01-17 17:03:27,387 [main] INFO com.utils.TestBase - ****************Started editing t0****************
+2018-01-17 17:03:28,828 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b6fc176e3756f82966cf4b55d5df58cd)] -> xpath: .//*[@id='searchPanel']/div/h4/a]
+2018-01-17 17:03:28,993 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b6fc176e3756f82966cf4b55d5df58cd)] -> xpath: .//*[@value="Edit Profile"]]
+2018-01-17 17:03:29,562 [main] INFO com.utils.TestBase - Clicked element-- [[ChromeDriver: chrome on XP (b6fc176e3756f82966cf4b55d5df58cd)] -> xpath: .//*[@id='dvupdateT0user']/div/div/div[2]/input[3]]
+2018-01-17 17:03:29,562 [main] INFO com.utils.TestBase - ****************editing t0 done****************

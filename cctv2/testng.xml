@@ -11,14 +11,14 @@
 
 		<classes>
 
-			<class name="com.testpages.manageuserstest" />
+			<class name="com.testpages.T0testcases" />
 
 		</classes>
 	</test>
 	
-	<!-- <listeners>
+	<!--  <listeners>
 	
-		<listener class-name="utils.TestListener" />
+		<listener class-name="com.utils.TestListener" />
 
-	</listeners> -->
+	</listeners>  -->
 </suite>

@@ -6,13 +6,12 @@
     <parameter name="appURL" value="https://dev2-cctv.ajilonservices.com.au"/>
     <parameter name="browserType" value="chrome"/>
     <classes>
-      <class name="com.testpages.manageuserstest">
+      <class name="com.testpages.T0testcases">
         <methods>
+          <include name="editt0test"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="downloadT2uploadTemplate"/>
-          <include name="uploadT2users"/>
         </methods>
-      </class> <!-- com.testpages.manageuserstest -->
+      </class> <!-- com.testpages.T0testcases -->
     </classes>
   </test> <!-- simpleTest(failed) -->
 </suite> <!-- Failed suite [testNGLearning] -->

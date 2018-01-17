@@ -1,59 +1,58 @@
 package com.utils;
-/*package utils;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook; 
-import org.testng.annotations.Test;
- 
- 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 public class ReadExcelFile {
-	
- public static void main (String args[]) throws IOException {
-  
 
-  File src=new File("E:\\Automation\\projects\\locators.xlsx");
-  
- 
-   System.out.println("reading file");
-   // load file
-   FileInputStream fis=new FileInputStream(src);
- 
+	public Object[][] ExcelDataProvider(String sheet1,int row, int column) throws Exception {
 
+		File src = new File("C://Users//22231//gitfinal//cctv2//locators.xlsx");
 
-XSSFWorkbook workbook = new XSSFWorkbook (fis);
+		System.out.println("reading file");
 
-    //Get first sheet from the workbook
-    XSSFSheet sh1 = workbook.getSheetAt(0);
+		FileInputStream fis = new FileInputStream(src);
 
-  
-  // getRow() specify which row we want to read.
- 
-  // and getCell() specify which column to read.
-  // getStringCellValue() specify that we are reading String data.
- 
- 
- System.out.println(sh1.getRow(0).getCell(0).getStringCellValue());
- 
- System.out.println(sh1.getRow(0).getCell(1).getStringCellValue());
- 
- System.out.println(sh1.getRow(1).getCell(0).getStringCellValue());
- 
- System.out.println(sh1.getRow(1).getCell(1).getStringCellValue());
- 
- System.out.println(sh1.getRow(2).getCell(0).getStringCellValue());
- 
- System.out.println(sh1.getRow(2).getCell(1).getStringCellValue());
- 
- fis.close(); workbook.close();
- 
-  } 
-  
- // return;
- }
- 
-*/
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+		// Get first sheet from the workbook
+		XSSFSheet sheet = workbook.getSheet(sheet1);
+
+		/*System.out.println(sheet.getRow(row).getCell(column).getStringCellValue());
+
+		System.out.println(sheet.getRow(0).getCell(1).getStringCellValue());
+		*/
+		
+		
+		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
+
+		// System.out.println(sheet.getLastRowNum() + "--------" +
+
+		// sheet.getRow(0).getLastCellNum());
+
+		for (int i = 0; i < sheet.getLastRowNum(); i++) {
+
+			for (int k = 0; k < sheet.getRow(0).getLastCellNum(); k++) {
+
+				data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
+
+				 System.out.println(data[i][k]);
+
+			}
+
+		}
+		
+		fis.close();
+		workbook.close();		
+		return data;
+
+		
+		
+
+		
+	}
+
+	// return;
+}

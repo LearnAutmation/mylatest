@@ -3,17 +3,12 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testpages.manageuserstest">
+      <class name="com.testpages.T0testcases">
         <methods>
-          <include name="creatingt0user1"/>
           <include name="editt0test"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="downloadT2uploadTemplate"/>
-          <include name="creat1T1users"/>
-          <include name="searchT0users"/>
-          <include name="uploadT2users"/>
         </methods>
-      </class> <!-- com.testpages.manageuserstest -->
+      </class> <!-- com.testpages.T0testcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
